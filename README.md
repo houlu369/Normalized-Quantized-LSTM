@@ -1,12 +1,13 @@
 
+## Prepare your envs
+1. pip install -r requirements.txt
+
+
 ## Language modeling
 
 
 ### Prepare your data
 1. run `bash getdata.sh` to prepare data.
-
-### Prepare your envs
-1. pip install -r requirements.txt
 
 ### Run an example
 1. Character-level language modeling 

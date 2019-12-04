@@ -39,3 +39,13 @@ python main_lm.py  --data data/penn --batch_size 20 --emsize 300 --nlayers 1 --n
 ```
 python main_mnist.py --norm weight --method twn
 ```
+
+If you find normalized quantized LSTM useful in your research, please consider citing the the paper
+```sh
+@InProceedings{hou2017loss,
+	title={Normalization Helps Training of Quantized LSTM},
+	author={Hou, Lu and Zhu, Jinhua and  Kwok, James T. and Gao, Feo and Qin, Tao  and  Liu, Tie-yan},
+	booktitle={Advances in Neural Information Processing Systems},
+	year={2019}
+}
+```
